@@ -1,0 +1,34 @@
+{
+  "name": "uba-boilerplate-website",
+  "version": "1.0.0",
+  "description": "互联网官网开发模板----基于require+gulp的前后端分离的脚手架工具",
+  "bin": {
+    "uba-boilerplate-website": "render.js"
+  },
+  "scripts": {
+      "build": "gulp dist",
+      "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uba-templates/uba-boilerplate-website.git"
+  },
+  "author": "YonYou FED",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uba-templates/uba-boilerplate-website/issues"
+  },
+  "homepage": "https://github.com/uba-templates/uba-boilerplate-website#readme",
+  "devDependencies": {
+    "art-template": "^3.1.3",
+    "browser-sync": "^2.18.6",
+    "fs-extra": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-less": "^3.3.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
